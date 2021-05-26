@@ -1,9 +1,9 @@
 === WooCommerce Product Image Flipper ===
-Contributors: jameskoster, gabriel-kaam
+Contributors: jameskoster, gabriel-kaam, raheemmiyasin
 Tags: woocommerce, ecommerce, product, images, photos, product photos, front and back
 Requires at least: 3.8
-Tested up to: 5.0.0
-Stable tag: 0.4.2
+Tested up to: 5.7.2
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,10 @@ First of all check that the product you're checking has a gallery attached to it
 1. A flipped image.
 
 == Changelog ==
+
+= 1.0.0 - 27.05.2021 =
+* Forked from original repo.
+* Fix - Fixes compatibility with other plugins.
 
 = 0.4.2 - 26.11.2018 =
 * Fix - Moved initilisation function to pif class. Fixes compatibility with other plugins.
