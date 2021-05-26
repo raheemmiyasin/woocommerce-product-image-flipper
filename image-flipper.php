@@ -91,7 +91,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 						'shop_catalog',
 						'',
 						array(
-							'class' => 'secondary-image attachment-shop-catalog wp-post-image wp-post-image--secondary',
+							'class' => 'attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image--secondary',
 							'alt' => $secondary_image_alt,
 							'title' => $secondary_image_title
 						)
@@ -111,7 +111,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 				if ( is_callable( 'WC_Product::get_gallery_image_ids' ) ) {
 					return $product->get_gallery_image_ids();
 				} else {
-					return $product->get_gallery_attachment_ids();
+					return $product->get_gallery_image_ids();
 				}
 			}
 
